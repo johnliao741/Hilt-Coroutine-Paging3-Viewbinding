@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="h3_text_size">48dp</dimen>
+    <dimen name="h5_text_size">24dp</dimen>
+    <dimen name="h6_text_size">20dp</dimen>
+    <dimen name="sub_text_size">16dp</dimen>
+    <dimen name="prompt_text_size">14dp</dimen>
+
+    <dimen name="radio_group_padding_left">-5dp</dimen>
+    <dimen name="radio_group_padding_right">-8dp</dimen>
+    <dimen name="radio_button_height">56dp</dimen>
+    
+    <dimen name="check_box_content_gap">8dp</dimen>
+
+    <dimen name="list_popup_window_vertical_gap">8dp</dimen>
+
+    <dimen name="button_margin_vertical">8dp</dimen>
+
+    <dimen name="custom_dialog_view_outer_horizontal_gap">24dp</dimen>
+    <dimen name="custom_dialog_view_outer_vertical_gap">20dp</dimen>
+
+    <dimen name="default_gap">8dp</dimen>
+    <dimen name="content_left_gap">12dp</dimen>
+    <dimen name="content_editText_left_gap">9dp</dimen>
+    <dimen name="program_icon_size">60dp</dimen>
+    <dimen name="view_title_top_gap">32dp</dimen>
+
+    <dimen name="item_title_vertical_gap">4dp</dimen>
+    <dimen name="item_category_vertical_gap">8dp</dimen>
+    <!--  width of list header and item  -->
+    <dimen name="item_code_width">120dp</dimen>
+    <dimen name="item_valid_date">112dp</dimen>
+
+    <dimen name="qty_text_width">60dp</dimen>
+    <dimen name="qty_edit_text_width">68dp</dimen>
+    <dimen name="padding_gap">16dp</dimen>
+    <dimen name="dp10_gap">10dp</dimen>
+    <dimen name="dp6_gap">6dp</dimen>
+    <dimen name="dp4_gap">4dp</dimen>
+    <dimen name="dp3_gap">3dp</dimen>
+</resources>

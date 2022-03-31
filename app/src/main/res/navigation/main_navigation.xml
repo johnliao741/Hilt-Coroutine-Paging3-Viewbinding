@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/commodityFragment">
+
+
+    <fragment
+        android:id="@+id/commodityFragment"
+        android:name="tw.personal.jehuty.fsdation.ui.commodity.CommodityFragment"
+        android:label="commodityFragment"
+        tools:layout="@layout/commodity_fragment" >
+        <action
+            android:id="@+id/to_commodityDetailFragment"
+            app:destination="@id/commodityDetailFragment" >
+            <argument
+                android:name="id"
+                app:argType="string"
+                app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/commodityDetailFragment"
+        android:name="tw.personal.jehuty.fsdation.ui.commodity.CommodityDetailFragment"
+        android:label="CommodityDetailFragment"
+        tools:layout="@layout/commodity_detail_fragment" >
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="false" />
+    </fragment>
+
+</navigation>
